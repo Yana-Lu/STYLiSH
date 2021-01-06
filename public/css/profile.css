@@ -1,0 +1,44 @@
+/* main */
+main {
+    padding: 20px 10px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.picture {
+    max-width: 100px;
+}
+.view {
+    width: 100%;
+    max-width: 980px;
+    margin: 0px auto;
+}
+.headline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #979797;
+}
+h3 {
+    padding-top: 10px;
+}
+#logout {
+    margin-top: 40px;
+    cursor: pointer;
+}
+#logout:hover {
+    color: #8b572a;
+}
+
+/* 
+==============
+Media queries
+============== 
+*/
+
+@media screen and (max-width: 1000px) {
+    main {
+        margin-top: 100px;
+    }
+    .picture {
+        width: 100px;
+    }
+}

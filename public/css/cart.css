@@ -1,0 +1,302 @@
+/* main */
+main {
+    padding: 20px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+main > .view {
+    max-width: 980px;
+    margin: auto;
+}
+.cart {
+    margin-bottom: 20px;
+}
+.row-title {
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px auto;
+}
+.row-title > .variant {
+    flex: none;
+    width: 300px;
+    order: 1;
+}
+.row-title > .qty {
+    flex: auto;
+    order: 3;
+}
+.row-title > .price {
+    flex: auto;
+    order: 4;
+}
+.row-title > .subtotal {
+    flex: auto;
+    order: 5;
+}
+.row-title > .remove {
+    flex: none;
+    width: 50px;
+    order: 6;
+}
+
+.list {
+    border: solid 1px #979797;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.row > .variant {
+    flex: none;
+    display: flex;
+    width: 300px;
+    order: 1;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+.row > .variant > .picture {
+    flex: none;
+    width: 100px;
+}
+.row > .variant > .detailes {
+    flex: auto;
+    margin-left: 10px;
+}
+.row > .qty {
+    flex: auto;
+    order: 3;
+}
+.row > .qty > select {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 4px;
+}
+.row > .price {
+    flex: auto;
+    order: 4;
+}
+.row > .subtotal {
+    flex: auto;
+    order: 5;
+}
+.row > .remove {
+    flex: none;
+    width: 50px;
+    order: 6;
+    cursor: pointer;
+}
+
+.target {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e8e8e8;
+}
+.target > .country {
+    flex: auto;
+}
+.target > .country > span {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.target > .country > select {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 4px;
+}
+.reminder {
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+.recipient {
+    margin-bottom: 30px;
+}
+.recipient > .title {
+    border-bottom: 1px solid #3f3a3a;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.recipient > .line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.recipient > .line > .text {
+    flex: none;
+    width: 180px;
+}
+.recipient > .line > .input {
+    flex: auto;
+}
+.recipient > .line > .input > label {
+    margin-right: 10px;
+}
+.recipient > .line > .input > input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 4px;
+    border: solid 1px #979797;
+}
+.recipient > .line > .input > label > .time {
+    vertical-align: middle;
+}
+.payment {
+    margin-bottom: 30px;
+}
+.payment > .title {
+    border-bottom: 1px solid #3f3a3a;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.payment > .line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.payment > .line > .text {
+    flex: none;
+    width: 180px;
+}
+.payment > .line > .input {
+    flex: auto;
+}
+.payment > .line > .input > .tpfield {
+    height: 20px;
+    width: 300px;
+    border: 1px solid gray;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.confirm {
+    border-top: solid 1px #3f3a3a;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.confirm > .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.confirm > .row > .title {
+    flex: none;
+    width: 100px;
+}
+.confirm > .row > .priceView {
+    flex: none;
+    width: 140px;
+    font-size: 1.5em;
+    text-align: right;
+}
+.confirm > .row > .price > .unit {
+    font-size: 0.75em;
+}
+.confirm > .row > .seperator {
+    flex: none;
+    height: 1px;
+    background-color: black;
+    width: 240px;
+}
+button {
+    width: 240px;
+    height: 40px;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* 
+==============
+Media queries
+============== 
+*/
+
+@media screen and (max-width: 1000px) {
+    main {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .row-title {
+        display: none;
+    }
+    .row:first-child {
+        padding-top: 0px;
+    }
+    .row {
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .row > .variant {
+        width: 90%;
+    }
+    .row > .qty {
+        text-align: center;
+    }
+    .row > .qty:before {
+        content: '數量';
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    main .cart .row > .qty {
+        text-align: center;
+    }
+    .row > .qty > select {
+        padding: 2px;
+    }
+    .row > .price:before {
+        content: '單價';
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    main .cart .row > .price {
+        text-align: center;
+    }
+    .row > .subtotal:before {
+        content: '小計';
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    main .cart .row > .subtotal {
+        text-align: center;
+    }
+    .row > .remove {
+        width: 10%;
+        align-self: flex-start;
+        order: 2;
+    }
+    .target > .country > select {
+        margin-top: 5px;
+        padding: 5px;
+    }
+    main .recipient > .line,
+    main .payment > .line {
+        flex-wrap: wrap;
+    }
+    .recipient > .line > .input > input {
+        width: 95%;
+    }
+    .recipient > .line > .text,
+    main .payment > .line > .text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .payment > .line > .input > .tpfield > input {
+        width: 95%;
+    }
+    main .confirm > .row > button {
+        width: 100%;
+    }
+}

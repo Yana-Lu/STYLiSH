@@ -1,0 +1,32 @@
+/* main */
+main {
+    padding: 20px 10px;
+    text-align: center;
+    margin: 100px auto;
+}
+.view {
+    width: 100%;
+    max-width: 980px;
+    margin: 120px auto;
+}
+.headline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #979797;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+main > .view #productNumber {
+    background-color: #eeeeee;
+    padding: 5px 10px;
+}
+main > .view > .more {
+    margin-top: 40px;
+}
+main > .view > .more > a:hover {
+    color: #8b572a;
+}

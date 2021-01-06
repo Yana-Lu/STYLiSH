@@ -1,0 +1,193 @@
+/* main */
+main {
+    padding: 50px 0px;
+}
+.view {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main > .view {
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+main .main-image {
+    flex: none;
+    width: 50%;
+    margin: 2%;
+}
+main .main-image > img {
+    width: 100%;
+}
+main .details {
+    flex: none;
+    font-size: 18px;
+    margin: 2%;
+    width: 40%;
+    line-height: 1.5em;
+}
+main .details > .name {
+    letter-spacing: 6px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+main .details > .id {
+    letter-spacing: 3px;
+    color: #bababa;
+    margin-bottom: 20px;
+}
+main .details > .price {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #3f3a3a;
+    margin-bottom: 20px;
+}
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    margin: auto 10px auto 0;
+}
+main .details > .colors {
+    margin-bottom: 20px;
+}
+
+main .details > .colors > .color {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 10px auto 0;
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 1px #bbbbbb;
+    cursor: pointer;
+}
+main .details > .sizes {
+    margin-bottom: 20px;
+}
+main .details > .sizes > .size {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    margin: auto 10px auto 0;
+    border-radius: 50%;
+    background-color: #ececec;
+    cursor: pointer;
+}
+main .details > .qty > .chooser {
+    margin-bottom: 20px;
+    display: inline-flex;
+    width: 150px;
+    padding: 5px;
+    border: solid 1px #979797;
+}
+main .details > .qty > .chooser > .op {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: auto 0;
+    cursor: pointer;
+}
+main .details > .qty > .chooser > .value {
+    flex: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: auto 0;
+}
+main .details > .add-cart {
+    margin: 30px 0;
+}
+main .details > .add-cart > button {
+    width: 300px;
+    max-width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+main .details > .summary {
+    line-height: 1.5em;
+}
+main .seperator {
+    display: flex;
+    width: 94%;
+    align-items: center;
+    margin: 30px 0px;
+}
+main .seperator > .title {
+    flex: none;
+    width: 150px;
+    color: #8b572a;
+}
+main .seperator > .line {
+    flex: auto;
+    height: 1px;
+    background-color: black;
+}
+main .description {
+    width: 94%;
+}
+main .description > .story {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+main .description > .images > img {
+    width: auto;
+    margin-bottom: 30px;
+}
+main .details > .colors > .current {
+    outline: 1px solid #979797;
+}
+main .details > .sizes > .current {
+    color: #fff;
+    background-color: #000;
+}
+
+/* 
+==============
+Media queries
+============== 
+*/
+
+@media screen and (max-width: 1000px) {
+    main .details {
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        padding-top: 0px;
+    }
+    main .view > .main-image {
+        flex: none;
+        width: 100%;
+        margin: 0px;
+    }
+    main .details {
+        flex: none;
+        margin: 2%;
+        margin-top: 20px;
+        width: 95%;
+    }
+    main .details > .qty > .chooser {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 10px 5px;
+    }
+    main .details > .add-cart > button {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 10px 5px;
+    }
+}
