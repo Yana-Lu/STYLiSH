@@ -2,7 +2,7 @@
 
 A fancy e-commerce website always fullls your shopping desires.
 
-![image](https://github.com/Yana-Lu/STYLiSH/tree/main/public/images/readme/homePage.png)
+![image](https://github.com/Yana-Lu/STYLiSH/raw/main/public/images/readme/homePage.png)
 
 ## Demo
 
