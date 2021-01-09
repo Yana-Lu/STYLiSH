@@ -2,6 +2,8 @@
 
 A fancy e-commerce website always fullls your shopping desires.
 
+![image](https://github.com/Yana-Lu/STYLiSH/raw/main/public/images/readme/homePage.png)
+
 ## Demo
 
 [STYLiSH](https://stylish-9a31b.firebaseapp.com/)
