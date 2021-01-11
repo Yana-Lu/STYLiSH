@@ -42,6 +42,8 @@ A fancy e-commerce website always fullls your shopping desires.
 - Choose size, color and amout
 - Add cart Function with Local Storage
 
+![image](https://github.com/Yana-Lu/STYLiSH/blob/main/public/images/readme/productPage.gif)
+
 ### Shopping Cart Page
 - Edit and Remove product Functions
 - Checkout Function Integrated with TapPay
