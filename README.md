@@ -4,7 +4,7 @@ A fancy e-commerce website always fullls your shopping desires.
 
 ![image](https://github.com/Yana-Lu/STYLiSH/blob/main/public/images/readme/HomePage.png)
 
-## Demo
+## Website
 
 [STYLiSH](https://stylish-9a31b.firebaseapp.com/)
 
@@ -35,6 +35,8 @@ A fancy e-commerce website always fullls your shopping desires.
 - Sliding ads Effects
 - Infinite Scroll
 - Searching products Function
+
+![image](https://github.com/Yana-Lu/STYLiSH/blob/main/public/images/readme/homePage.gif)
 
 ### Product Page
 - Choose size, color and amout
