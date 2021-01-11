@@ -8,7 +8,9 @@ A fancy e-commerce website always fullls your shopping desires.
 
 [STYLiSH](https://stylish-9a31b.firebaseapp.com/)
 
-## Technologies
+## Structure
+
+![image](https://github.com/Yana-Lu/STYLiSH/blob/main/public/images/readme/STYLiSH%20Structor.png)
 
 ### Front-End Basic
 - HTML
