@@ -48,6 +48,7 @@ A fancy e-commerce website always fullls your shopping desires.
 - Edit and Remove product Functions
 - Checkout Function Integrated with TapPay
 
+![image](https://github.com/Yana-Lu/STYLiSH/blob/main/public/images/readme/cartPage.gif)
 
 
 
